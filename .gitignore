@@ -1,0 +1,77 @@
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+Icon?
+._*
+
+# ---- Python basics ----
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# ---- Envs ----
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.env.*
+
+# ---- Build / packaging ----
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+*.whl
+
+# ---- Testing / coverage / tooling ----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Editors/IDEs ----
+.vscode/
+.idea/
+
+# ---- App data / outputs ----
+# Ultralytics default output dir
+runs/
+
+# Metrics logs
+data/metrics.csv
+data/*.csv
+
+# Videos & heavy media (keep repo light)
+data/*
+!data/.gitkeep
+
+# ---- Models (large binaries) ----
+# Keep lightweight configs/names; ignore weights/exports
+models/*.weights
+models/*.pt
+models/*.onnx
+models/*.engine
+models/*.tensorrt
+
+# If you want to store cfg & names, allow them:
+!models/*.cfg
+!models/*.names
+!models/README.md
+
+# ---- Misc ----
+logs/
+*.log
+*.tmp
+*.bak
