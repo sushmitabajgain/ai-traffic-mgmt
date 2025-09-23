@@ -1,9 +1,9 @@
 from ultralytics import YOLO
 import cv2
 
-# VIDEO = "../data/sample.mp4"
+VIDEO = "../data/sample.mp4"
 # Change to 0 for webcam
-VIDEO = 0
+# VIDEO = 0
 
 def main():
     model = YOLO("yolov8n.pt")  # auto-downloads on first run
