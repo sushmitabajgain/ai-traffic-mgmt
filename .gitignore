@@ -54,7 +54,7 @@ data/metrics.csv
 data/*.csv
 
 # Videos & heavy media (keep repo light)
-data/*
+data/metrics.csv
 !data/.gitkeep
 
 # ---- Models (large binaries) ----
