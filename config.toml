@@ -1,0 +1,21 @@
+baseURL = "https://sushmitabajgain.github.io/sushmitabajgain-ai-traffic-mgmt/"
+
+canonifyURLs = true
+
+languageCode = "en-us"
+
+title = "The AI traffic mgmt API"
+
+description = "The world's most amazing AI traffic detector"
+
+[permalinks]
+  # Use the slug directly to preserve case
+  default = "/:slug/"
+
+[params]
+  description = "The world's most amazing  AI traffic detector"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
